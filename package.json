@@ -15,7 +15,8 @@
     "test": "jest",
     "test:mocha": "npx -y mocha",
     "travel-processor": "cds-tsx watch --open sap.fe.cap.travel/index.html?sap-ui-xx-viewCache=false",
-    "travel-analytics": "cds-tsx watch --open sap.fe.cap.travel_analytics/index.html?sap-ui-xx-viewCache=false"
+    "travel-analytics": "cds-tsx watch --open sap.fe.cap.travel_analytics/index.html?sap-ui-xx-viewCache=false",
+    "undeploy":"cf undeploy sflight-srv --delete-services --delete-service-keys --delete-service-brokers"
   },
   "dependencies": {
     "@cap-js/hana": "^1",
